@@ -1,0 +1,52 @@
+{
+  "name": "grunt-jade-extract-coffeescript",
+  "version": "0.0.1",
+  "description": "Grunt plugin for extracting coffeescript embedded in jade file to an external file",
+  "homepage": "https://github.com/noos/grunt-jade-extract-coffeescript",
+  "bugs": {
+    "url": "https://github.com/noos/grunt-jade-extract-coffeescript/issues"
+  },
+  "author": {
+    "name": "Jun H. Sung",
+    "email": "jun@noos.com"
+  },
+  "keywords": [
+    "gruntplugin",
+    "jade",
+    "coffeescript",
+    "build",
+    "minify"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noos/grunt-jade-extract-coffeescript.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-internal": "^0.4.10",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.2",
+    "grunt-dev-update": "~0.4.6",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "readmeFilename": "README.md"
+}
